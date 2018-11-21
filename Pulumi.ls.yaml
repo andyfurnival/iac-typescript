@@ -1,0 +1,7 @@
+config:
+  aws:region: eu-west-1
+  cloud-aws:useFargate: "true"
+  docker:memory: "512"
+  docker:ports: "8080"
+  elasticcache:cacheNodes: "2"
+  elasticcache:nodeType: redis
